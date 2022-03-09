@@ -1,0 +1,43 @@
+.aboutUsContainer {
+  padding: 80px 50px 0 50px;
+}
+
+.aboutUsContent {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+
+.title {
+  font-size: 32px;
+  color: #caab2a;
+  width: 50%;
+  display: block;
+  padding-bottom: 32px;
+}
+
+.divider {
+  height: 1px;
+  border: 2px solid;
+  width: 60px;
+  border-image: linear-gradient(to right, #fff, #000) 1;
+  border-image-slice: 1;
+  margin-bottom: 32px;
+}
+.content {
+  font-size: 16px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.textContainer {
+  width: 432px;
+  padding: 114px 0;
+  text-align: left;
+}
+
+.aboutUsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

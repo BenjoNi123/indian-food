@@ -1,0 +1,117 @@
+.container {
+}
+
+.navigation {
+  font-weight: 600;
+  line-height: 110%;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 234px;
+}
+.navigation a {
+  padding: 0 30px;
+}
+.navigation a:active,
+.navigation a:hover {
+  color: #caab2a;
+}
+.jumbotronText {
+  display: flex;
+  justify-content: center;
+  padding-top: 110px;
+}
+.carouselControls {
+  display: flex;
+  justify-content: center;
+  padding-top: 170px;
+}
+.carouselDots,
+.carouselDotsActive {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: rgba(196, 196, 196, 0.5);
+  margin: 0 8px;
+}
+
+.carouselDotsActive {
+  background-color: white;
+}
+
+.carouselCTAContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.carouselCTA {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 32px 33px;
+  margin: 35px 12px 0 12px;
+
+  position: static;
+  width: 432px;
+  height: 134px;
+  left: 0px;
+  top: 0px;
+
+  background: rgba(255, 255, 255, 0.32);
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  backdrop-filter: blur(24px);
+}
+
+.carouselCtaIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  width: 54px;
+  border-radius: 100%;
+  margin-right: 30px;
+}
+
+.carouselCTAContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.carouselCTAContent h4 {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+}
+.carouselCTAContent p {
+  font-size: 20px;
+  margin: 0;
+  line-height: 24px;
+  width: 250px;
+}
+.carouselCTAContent button {
+  background-color: #caab2a;
+  border-radius: 4px;
+  padding: 12px 12px 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: none;
+  border: none;
+  color: #080809;
+  line-height: 24px;
+  width: 232px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

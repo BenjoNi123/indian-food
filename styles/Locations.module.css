@@ -1,0 +1,82 @@
+.locationsInner {
+  padding: 32px 48px;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(29, 29, 31, 1);
+}
+
+.locationsInner p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.locationsInner h2 {
+  font-size: 24px;
+  line-height: 30px;
+  color: #caab2a;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contactGroup {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+}
+.contactItem {
+  padding: 0 25px 0 10px;
+  white-space: nowrap;
+  font-size: 14px;
+}
+.openingHoursTitle {
+  display: flex;
+  height: 14px;
+  white-space: nowrap;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 16px;
+  font-size: 14px;
+}
+.greyLine {
+  width: 430px;
+  height: 1px;
+  border-bottom: 1px solid rgba(165, 165, 165, 1);
+}
+
+.dayItem {
+  display: flex;
+  flex-direction: column;
+  padding-right: 28px;
+  padding-bottom: 8px;
+}
+
+.dayItemTime {
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+}
+
+.dayItemDay {
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.buttonCTA {
+  background-color: rgba(202, 171, 42, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  max-width: 232px;
+  width: 100%;
+  border: none;
+}

@@ -1,0 +1,98 @@
+.eventsContainer {
+  background-color: black;
+  display: flex;
+  padding-top: 135px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 163px;
+}
+
+.eventsContainer h1 {
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.eventDiv {
+  display: flex;
+  padding-top: 32px;
+}
+
+.eventsInner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+.borderLeft {
+  position: absolute;
+  left: 0;
+  bottom: 110px;
+}
+.borderRight {
+  position: absolute;
+  right: 0;
+  bottom: 110px;
+}
+.eventItem {
+  display: flex;
+  flex-direction: column;
+  background-color: #1d1d1f;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+  margin: 0 12px 12px 12px;
+  max-width: 318px;
+  width: 100%;
+}
+
+.innerPaddingTop {
+  padding: 16px 20px 20px 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.innerPaddingBottom {
+  padding: 16px 20px 24px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.eventTitle {
+  font-size: 16px;
+  color: #caab2a;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.eventTime {
+  font-weight: 700;
+}
+
+.eventButtons {
+  display: flex;
+  flex-direction: row;
+}
+.eventButtons button {
+  width: 100%;
+  background-color: #caab2a;
+  padding: 12px 8px;
+  margin: 16px 0;
+  border: none;
+  height: 44px;
+  color: #080809;
+  font-size: 14px;
+}
+
+.twoButtons {
+  display: flex;
+  justify-content: space-between;
+}
+.twoButtons button {
+  width: 131px;
+  background-color: #caab2a;
+  padding: 12px 8px;
+  margin: 16px 0;
+  border: none;
+  height: 44px;
+  color: #080809;
+  font-size: 14px;
+}
